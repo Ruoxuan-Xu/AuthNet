@@ -11,7 +11,7 @@ We provide a trained **AuthNet VGG13** model together with its corresponding **s
 To test with the pretrained model, simply run:
 
 ```bash
-python effectiveness.py
+python Effectiveness.py
 ```
 
 ---
@@ -56,10 +56,11 @@ If you want to train your own AuthNet from scratch, please follow the steps belo
 
 ## 📌 Requirements
 
-- Python 3.8+
-- PyTorch
-- NumPy
-- (Other dependencies depending on your environment)
+- python>=3.8
+- torch>=1.10
+- torchvision>=0.11
+- numpy
+- pillow
 
 ---
 
@@ -70,8 +71,14 @@ If you find this repository useful, please consider citing our paper:
 ```
 @article{AuthNet2025,
   title   = {AuthNet: Neural Network with Integrated Authentication Logic},
-  author  = {Your Name and Co-authors},
-  journal = {Conference/Journal Name},
+  author  = {Cai Yuling, Xiang Fan, Meng Guozhu, Cao Yinzhi, Chen Kai},
+  conference = {European Conference on Artificial Intelligence},
   year    = {2025}
 }
 ```
+
+---
+
+## 📄 License
+
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
